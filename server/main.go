@@ -7,9 +7,8 @@ import (
 )
 
 func main() {
-	app := fiber.New()
-
 	const PORT = ":42069"
+	app := fiber.New()
 
 	log.Fatal(app.Listen(PORT))
 }
